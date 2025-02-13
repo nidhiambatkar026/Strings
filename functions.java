@@ -6,5 +6,9 @@ public class functions {
         System.out.println(FullName);
         //length
         System.out.println(FullName.length());
+        //chartAt
+        for(int i=0; i<FullName.length();i++){
+            System.out.println(FullName.charAt(i));
+        }
     }
 }
